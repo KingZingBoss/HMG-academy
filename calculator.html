@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Tutor Price Calculator</title>
+</head>
+
+<body>
+    <h1>Online Tutor Price Calculator</h1>
+    <label>Subjects:</label><br>
+    <input type="checkbox" name="subject" value="physics"> Physics<br>
+    <input type="checkbox" name="subject" value="chemistry"> Chemistry<br>
+    <input type="checkbox" name="subject" value="mathematics"> Mathematics<br>
+    <input type="checkbox" name="subject" value="furtherMathematics"> Further Mathematics<br><br>
+
+    <label for="hoursPerDay">Hours per Day:</label>
+    <input type="number" id="hoursPerDay" value="0"><br><br>
+
+    <label for="daysPerWeek">Days per Week:</label>
+    <input type="number" id="daysPerWeek" value="0"><br><br>
+    <button onclick="calculateTotal()">Calculate Total</button>
+    <h2>Total Amount: <span id="totalAmount">₦0</span></h2>
+</body>
+<script src="assets/js/calc.js"></script>
+
+</html>
